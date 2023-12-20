@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,900;1,400;1,800&display=swap');
+
+body{
+    background-image: url(../trilha-css-desafio-01/assets/images/woman-code.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    align-items: center;
+    display: grid;
+}
+.banner{
+    height: 605px;
+    background-color: black;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    display:grid;
+
+    background-image: url(../trilha-css-desafio-01/assets/images/banner.png), linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2),rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content{
+    width: 510px;
+    height: 393px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+   
+}
+.logo{
+    display: grid;
+    background-color: rgba(0,0,0,0.2);
+    width: 268px;
+    height: 268px;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+h1{
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0%;
+
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-content p{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justify;
+
+    color:white;
+}
+
+button{
+   
+    padding: 19px 91px 19px 91px;
+    border: 2px;
+    background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.21em;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: #33A8DB;
+    
+}
+main{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: grid;
+}
+main #course-content{
+    
+    height: 400px;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    justify-items: center;
+    text-align: center;
+    display: grid;
+    
+}
+#course-content h2{
+    display: grid;
+    background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-items: center;
+    text-align: center;
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    margin: 0;
+    text-transform: uppercase;
+
+
+
+}
+#course-content p{
+    color: white;
+}
