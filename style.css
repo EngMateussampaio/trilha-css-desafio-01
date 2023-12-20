@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,900;1,400;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,900;1,400;1,800&display=swap');
 body{
     background-image: url(../trilha-css-desafio-01/assets/images/woman-code.png);
     background-size: cover;
@@ -90,26 +89,30 @@ main{
     padding: 0;
     align-items: center;
     display: grid;
+    grid-gap: 5px;
 }
 main #course-content{
-    
+
     height: 400px;
     background-color: black;
+    display: grid;
     margin: 0;
     padding: 10px;
+    align-content: center;
     justify-items: center;
-    text-align: center;
-    display: grid;
-    
+    text-align: center;      
+
 }
+
 #course-content h2{
-    display: grid;
+  
     background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    align-items: center;
-    text-align: center;
-
+   
+    width: fit-content;
+    height: fit-content;
+   
     font-family: Raleway;
     font-size: 32px;
     font-weight: 700;
@@ -117,10 +120,56 @@ main #course-content{
     letter-spacing: 0.19em;
     margin: 0;
     text-transform: uppercase;
-
-
-
 }
 #course-content p{
+
     color: white;
+    
+    width: 800px;
+    height: fit-content;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.48px;
+    letter-spacing: 0.02em;
+}
+.modules-list{
+    display: grid;
+    grid-gap: 10px;
+   
+    align-content: center;
+   
+}
+
+.module{
+    width: 535px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 57px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    background: linear-gradient(0deg, #252525, #252525);
+    box-shadow: inset -2px 5px 5px 0px black;
+    
+    align-content: center;
+    gap: 5px;
+    color: white;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+}
+span{
+    
+    background: linear-gradient(0deg, #33A8DB, #33A8DB),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
 }
